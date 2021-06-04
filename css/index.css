@@ -304,6 +304,7 @@ h2 {
 .img-about div {
   border-bottom: 1px dashed black;
   padding: 10px 0px 35px 0px;
+  width:50%;
   /* margin:10px */
 }
 
