@@ -298,20 +298,21 @@ h2 {
 .img-about {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.img-about div{
- border-bottom: 1px dashed black;
-padding:10px 0px 35px 0px;
- /* margin:10px */
+.img-about div {
+  border-bottom: 1px dashed black;
+  padding: 10px 0px 35px 0px;
+  /* margin:10px */
 }
 
-.img-about h2{
-    margin-top: 15px;
+.img-about h2 {
+  margin-top: 15px;
 }
 
-.img-about p { 
-  margin-bottom: 25px
+.img-about p {
+  margin-bottom: 25px;
 }
 
 .img-about a {
@@ -324,4 +325,6 @@ padding:10px 0px 35px 0px;
   text-align: center;
 }
 
-
+.together-btm {
+  margin: 25px 0px 25px 0px;
+}
