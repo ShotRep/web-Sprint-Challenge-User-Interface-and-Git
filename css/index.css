@@ -297,16 +297,17 @@ h2 {
 
 .img-about {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .img-about div {
   border-bottom: 1px dashed black;
+  margin: 0px 10px 0 0px;
   padding: 10px 0px 35px 0px;
-  width:50%;
-  /* margin:10px */
-}
+  width:45%;
+  }
 
 .img-about h2 {
   margin-top: 15px;
@@ -320,10 +321,7 @@ h2 {
   border: 2px solid black;
   padding: 10px;
   border-radius: 10px;
-  /* margin-bottom:15 px; */
-  /* height:25px;
-  width:155px; */
-  text-align: center;
+ text-align: center;
 }
 
 .together-btm {
